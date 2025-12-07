@@ -17,14 +17,10 @@
       <a href="#" class="home-link">← Back to home</a>
       <div class="logo">
         <img src="./picture/svg/logo.svg" alt="logo" class="logotip" />
-        <h4 class="log-title">Create Account</h4>
-        <p class="info">Join us today</p>
+        <h4 class="log-title">Welcome Back</h4>
+        <p class="info">Sign in to your account</p>
       </div>
       <form id="form" action="" method="get">
-        <div class="input-shape">
-          <i class="bx bx-user"></i>
-          <input type="text" id="name" placeholder="Full name" required />
-        </div>
         <div class="input-shape">
           <i class="bx bx-envelope"></i>
           <input type="email" id="email" placeholder="Email address" required />
@@ -35,22 +31,23 @@
             type="password"
             id="password"
             placeholder="Password (min 6 characters)"
+            required
           />
         </div>
 
-        <input type="submit" id="submit" />
+        <button id="submit">Login</button>
       </form>
 
       <span class="or">or</span>
       <div class="input-shape media-loging">
         <a href="#" class="register-from-google"
-          ><i class="bx bxl-chrome"></i>Register with Google</a
+          ><i class="bx bxl-chrome"></i>Loging with Google</a
         >
       </div>
       <p class="log-in">
-        Already have an account? <a href="./log-in.html">Log in</a>
+        Already have an account? <a href="./index.html">Register</a>
       </p>
     </div>
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./login.js"></script>
   </body>
 </html>
